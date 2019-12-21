@@ -18,7 +18,7 @@ composer require henshall\timezones
 Get array of all Timezones and their current times
 ```bash
 $timezone = new Timezone("localhost", "username", "password", "database_name", "local_timezone(optional)");
-$timezone->get_timezones_and_current_time()
+$timezone->get_timezones_and_current_times()
 ```
 
 Get local current time in a specific timezone
@@ -26,13 +26,6 @@ Get local current time in a specific timezone
 $timezone = new Timezone("localhost", "username", "password", "database", "local_timezone(optional)");
 $japan_time = $timezone->get_time_now("Japan");
 ```
-
-Get List of All Timezones and their current times
-```bash
-$timezone = new Timezone("localhost", "username", "password", "database", "local_timezone(optional)");
-$timezones_array = $timezone->get_timezones_and_current_times();
-```
-
 
 Set Local Time to specific time ("note: this local_timezone variable is used to get the time in other timezones. if it is not set correctly, it will return invalid times. Always set it to the timezone of ther server, or simply let it be configured automatically by not setting it at all")
 ```bash
