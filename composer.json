@@ -1,0 +1,12 @@
+{
+    "name": "henshall/timezones",
+    "description": "Package for use with mysql timezone-tables",
+    "authors": [
+        {
+            "name": "wes",
+            "email": "weshenshall@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
