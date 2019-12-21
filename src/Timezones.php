@@ -49,7 +49,7 @@ class Timezones
         if (mysqli_num_rows($result) > 0) {
             while($row = mysqli_fetch_assoc($result)) {
     
-                return $row["CONVERT_TZ(now(),'$from','$to')"];
+                return $row["CONVERT_TZ(now(),'$this->local_timezone','$zone')"];
             }
         } else {
             throw new \Exception("Error no results - timezones probably not recognized", 1);
