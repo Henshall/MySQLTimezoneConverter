@@ -1,7 +1,7 @@
-# Timezone Converter
+# Timezone Package
 ## Version: 1.0.0
 
-This is a simple timezone converter for use with php and mysql timezone tables. 
+This is a simple timezone package for use with php and mysql timezone tables. 
 It allows you to get the current timezone, get the time in any timezone now,
 and generate a list of all possible timezones and their current time. 
 
