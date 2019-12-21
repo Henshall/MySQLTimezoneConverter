@@ -10,6 +10,6 @@
     "minimum-stability": "dev",
     "require": {},
     "psr-4": {
-        "Henshall\\Timezone\\": "src/"
+        "Henshall\\Timezones\\": "src/"
         }
 }

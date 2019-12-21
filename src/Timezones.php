@@ -1,7 +1,7 @@
 <?php 
-namespace Henshall\Timezone;
+namespace Henshall\Timezones;
 
-class Timezone
+class Timezones
 {
     //All Possible Timzeones Generates From Mysql Tables 2019
     private $timezones_array = [
