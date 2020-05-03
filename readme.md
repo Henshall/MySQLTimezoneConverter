@@ -8,10 +8,7 @@ for creating applications which are required to know what timezone the user is i
 
 ## Installation:
 1) Install timezone tables for mysql
-2)
-```bash
-composer require henshall\timezones
-```
+2) run composer require henshall\timezones
 
 ## Usage:
 
