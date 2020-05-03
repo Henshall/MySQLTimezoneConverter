@@ -4,8 +4,7 @@
 This is a simple timezone package for use with php and mysql timezone tables. 
 It allows you to get the current timezone, get the time in any timezone now,
 and generate a list of all possible timezones and their current time. This is great 
-for creating applications which are required to know what timezone the user is in
-- such as scheduling applications.
+for creating applications which are required to know what timezone the user is in such as scheduling applications.
 
 ## Installation:
 1) Install timezone tables for mysql
