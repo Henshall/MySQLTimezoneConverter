@@ -1,14 +1,15 @@
-# Timezone Package
+# Timezone Package for Mysql
 ## Version: 1.0.0
 
 This is a simple timezone package for use with php and mysql timezone tables. 
 It allows you to get the current timezone, get the time in any timezone now,
-and generate a list of all possible timezones and their current time. 
-
-This can be used for any applications where users are choosing 
+and generate a list of all possible timezones and their current time. This is great 
+for creating applications which are required to know what timezone the user is in
+- such as scheduling applications.
 
 ## Installation:
-
+1) Install timezone tables for mysql
+2)
 ```bash
 composer require henshall\timezones
 ```
@@ -32,13 +33,3 @@ Set Local Time to specific time ("note: this local_timezone variable is used to 
 $timezone = new Timezone("localhost", "username", "password", "database", "local_timezone(optional)");
 $timezone->$local_timezone = "Europe/Moscow";
 ```
-
-
-# TO DO:
-
-1) Timezones can change, we need to look into the $timezones_array variable to make sure that
-its correct, and that it doesnt change with future versions of mysql. To do this we could generate
-a config file for the $timezones_array variable, and we could build it using sql queries. This way 
-a user would be able to simple run a command to generate the list - and we would never have to update it again.
-
-
